@@ -11,19 +11,21 @@ typedef struct
 #endif // COLOR_H_INCLUDED
 
 int cargarDescripcionColor(char descripcion[], int idColor, eColor colores[], int tamColores);
-/** \brief
+/** \brief recibe una cadena a la que le asigna la descripcion dependiendo del idColor recibido
  *
- * \param
- * \param
- * \return
+ * \param cadena de caracteres descripcion
+ * \param int idColor
+ * \param vector de eColor
+ * \param tamaño de vector de eColor
+ * \return devuelve 1 si pudo realizar la carga, -1 si no
  *
  */
 
  void listarColores(eColor colores[], int tamColor);
- /** \brief
+ /** \brief recibe una lsita de colores y la muestra por pantalla
   *
-  * \param
-  * \param
-  * \return
+  * \param vector de eColor
+  * \param int tamaño de vector de colores
+  * \return devuelve 1 si pudo realizar la carga, -1 si no
   *
   */
